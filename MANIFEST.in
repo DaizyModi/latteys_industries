@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include latteys_industries *.css
+recursive-include latteys_industries *.csv
+recursive-include latteys_industries *.html
+recursive-include latteys_industries *.ico
+recursive-include latteys_industries *.js
+recursive-include latteys_industries *.json
+recursive-include latteys_industries *.md
+recursive-include latteys_industries *.png
+recursive-include latteys_industries *.py
+recursive-include latteys_industries *.svg
+recursive-include latteys_industries *.txt
+recursive-exclude latteys_industries *.pyc
